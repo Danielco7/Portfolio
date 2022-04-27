@@ -13,6 +13,7 @@ body{
   transition: 1s;
   scroll-behavior: smooth;
   min-height: 100vh;
+  overflow-x: hidden;
   
 }
 @media (min-width:800px) {
