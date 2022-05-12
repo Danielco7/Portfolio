@@ -6,6 +6,7 @@
       width:100%; 
       scroll-behavior: smooth;
       transition: 1s;
+      overflow-x: hidden;
     }
     /* body, html {
       overflow-x: hidden;
