@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body{
+  color: aliceblue;
+  margin:0;
+  width:100%; 
+  height: 3000px;
+  background:hsla(0, 5%, 5%, 1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #171717;
+  background-color: #08172b;
+  transition: 1s;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  /* overflow-y: hidden;
+  animation-name: loading;
+ animation-duration: 2s ;
+  animation-delay: 8s;
+  animation-fill-mode: forwards; */
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(43, 43, 43, 0.884);
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 70px;
+}
+@media (min-width:800px) {
+
+
+.hex{
+  padding: 10px;
+  width: 99%;
+  height: 1000px;
+}
+.hextext1{
+  font-size: 3em;
+  margin-top: 400px;
+  left: 42%;
+}
+.hextext2{
+  font-size: 3em;
+  margin-top: 470px;
+  left: 33.5%
+}
+
+}
+
+
+
+
+
+
+  
+@keyframes loading {
+  from {overflow-y: hidden;}
+  to {overflow-y:scroll;}
+  
+}
+
+.hex{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.mySVG {
+
+  position: absolute;
+  margin-top: 250px;
+  
+}
+.hex>svg{
+  stroke-width: 12px;
+  stroke: #00ffaa;
+}
+.hextext1{
+  position: absolute;
+  color: #ff0055;
+  background-color: #08172b;
+}.hextext2{
+  position: absolute;
+  color: #ff0055;
+  background-color: #08172b;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+  
+
+
+
+
+
+
+
+
+
+
+
+
+.lightbulbs{
+  display: flex;
+  justify-content: center;
+}
+.luminaire {
+  position: absolute;
+  display: inline-block;
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 40px 10px #fff, 0 0 100px 50px #0ff;
+  transition: box-shadow 4s ease-out;
+  /* animation: spin 20s linear infinite; */
+overflow: hidden;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.luminaire:hover {
+  cursor: pointer;
+}
+
+.luminaire::before, .luminaire::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 40px 10px #fff, 0 0 100px 40px #ff0;
+  opacity: 0;
+  transition: opacity 4s, transform 4s;
+}
+
+.on {
+  background-color: #fff;
+  box-shadow: 0 0 80px 40px #fff, 0 0 200px 100px #f0f;
+}
+
+.on::before {
+  transform: translateX(-100px);
+  opacity: 1;
+}
+
+.on::after {
+  transform: translateX(100px);
+  opacity: 1;
+}
+.luminaireIcon {
+  position: absolute;
+  top: calc(10% );
+  left: calc(10% );
+  width: 67px;
+  height: 67px;
+  /* animation: spin 8s linear infinite;
+  animation-direction: reverse; */
+
+}
+@keyframes counterspin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.explall{
+  opacity: 0;
+  transition: opacity 2s;
+}
+.on_explall{
+  opacity: 1;
+}

@@ -1,0 +1,75 @@
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+:after {
+	content: "";
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar nav {
+	top: 0;
+    left:  0;
+	background: transparent;
+}
+.navbar nav ul {
+    margin-top: 80px; 
+
+    padding-left: 0;
+	text-align: center;
+    list-style-type: none;
+
+}
+.navbar nav ul li {
+    margin-bottom: 17px; 
+  width: 70px;
+  cursor: pointer;
+	background: #BD9334;
+	text-transform: uppercase;
+	transition:all .4s ease-out;
+}
+.navbar nav ul li:after {
+	position: absolute;
+	background: white;
+	color: #76e3ce;
+	top:0;
+	left: 70px;
+	width: 70px; height: 100%;
+  opacity:.5;
+  transform: perspective(400px) rotateY(90deg);
+	transform-origin: 0 100%;
+	transition:all .4s ease-out;
+}
+.navbar nav ul li:nth-child(1):after { 
+	content: "Home";
+	line-height: 62px;
+}.navbar nav ul li:nth-child(2):after { 
+	content: "Work";
+	line-height: 62px;
+}.navbar nav ul li:nth-child(3):after { 
+	content: "About";
+	line-height: 62px;
+}.navbar nav ul li:nth-child(4):after { 
+	content: "Say hi";
+	line-height: 62px;
+}
+.navbar nav ul li:hover {
+	transform: translateX(-70px);
+}
+.navbar nav ul li:hover:after {
+  opacity: 1;
+	transform: perspective(400px) rotateY(0deg) scale(1) ;
+}
+
+.navbar nav ul li > div {
+    text-align: center;
+	display: inline-block;
+	background: transparent;
+}
+.navbar nav ul li div {
+    padding-top: 0px;
+padding-bottom: 0px;
+ }

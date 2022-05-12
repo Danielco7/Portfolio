@@ -1,0 +1,106 @@
+@media (min-width:800px) {
+
+.header{
+ position: relative;
+ margin: 10px;
+ width:100%; 
+ height:100vh;  
+}
+.header svg{
+    z-index: 1;
+    width:100% ;
+    height:100%;
+}
+#scene{
+ margin-right: 40px;
+ top: 10%;
+ right: 2%;
+ width: 550px;
+}
+#h1{
+    top: 20%; 
+    left: 20%; 
+}
+#h2{
+    top: 60%; 
+    left: 60%; 
+}
+
+}
+#scene{
+ position: absolute;
+ z-index: -1;
+}
+
+.header{
+    position: relative;
+}
+
+#headerpic1{
+ transform: rotate(180deg);
+ opacity: 0;
+ margin-top: -50px;
+ animation-name: head;
+ animation-duration: 1s ;
+ animation-delay: 8.5s;
+ animation-fill-mode: forwards;
+}
+#headerpic2{
+    transform: rotate();
+    opacity: 0;
+    
+    animation-name: head;
+    animation-duration: 1s ;
+    animation-delay: 8.6s;
+    animation-fill-mode: forwards;
+}
+#headerpic3{
+    transform: rotate(180deg);
+    opacity: 0;
+    margin-top: -50px;
+ animation-name: head;
+ animation-duration: 1s ;
+ animation-delay: 8.7s;
+ animation-fill-mode: forwards;
+}
+#headerpic4{
+    transform: rotate();
+    opacity: 0;
+ animation-name: head;
+ animation-duration: 1s ;
+ animation-delay: 8.8s;
+ animation-fill-mode: forwards;
+}
+#headerpic5{
+    transform: rotate(180deg);
+ opacity: 0;
+    margin-top: -50px;
+    animation-name: head;
+ animation-duration: 1s ;
+ animation-delay: 8.9s;
+ animation-fill-mode: forwards;
+}
+#headerpic6{
+    transform: rotate();
+    opacity: 0;
+    animation-name: head;
+    animation-duration: 1s ;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    
+}
+.h{
+    opacity: 0;
+    animation-name: head;
+    animation-duration: 1s ;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    font: Mystery Quest;
+  }
+  
+  @keyframes head {
+    from {opacity: 0;}
+    to {opacity:1;}
+    
+  }
