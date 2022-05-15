@@ -3,7 +3,7 @@ body{
   color: aliceblue;
   margin:0;
   width:100%; 
-  height: 3000px;
+  height: 4850px;
   background:hsla(0, 5%, 5%, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,12 +13,12 @@ body{
   scroll-behavior: smooth;
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
-  /* overflow-y: hidden;
+  font-family: 'Lekton';
+  overflow-y: hidden;
   animation-name: loading;
  animation-duration: 2s ;
   animation-delay: 8s;
-  animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
 }
 body::-webkit-scrollbar {
   width: 0.5em;
@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb {
   height: 81px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 40px 10px #fff, 0 0 100px 50px #0ff;
+  box-shadow: 0 0 40px 10px #fff, 0 0 100px 20px #0ff;
   transition: box-shadow 4s ease-out;
   /* animation: spin 20s linear infinite; */
 overflow: hidden;
@@ -148,7 +148,7 @@ overflow: hidden;
 
 .on {
   background-color: #fff;
-  box-shadow: 0 0 80px 40px #fff, 0 0 200px 100px #f0f;
+  box-shadow: 0 0 80px 40px #fff, 0 0 200px 50px #f0f;
 }
 
 .on::before {
@@ -177,8 +177,16 @@ overflow: hidden;
 }
 .explall{
   opacity: 0;
+  width: 350px;
   transition: opacity 2s;
+  text-align: center;
+  font-family: 'Lekton';
+  top:18%;
+  position: absolute;
 }
 .on_explall{
   opacity: 1;
+}
+.spiral_header{
+  text-align: center;
 }
