@@ -56,7 +56,7 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: -550%;
+    bottom: -200px;
     left: 120%;
     margin-left: -60px;
   }
@@ -83,41 +83,90 @@
     margin: auto;
     margin-left: 90px;
     margin-right: 100px;
+    margin-top: 50px;
   }
 
+  .contact_cont{
+    position: relative;
+    margin-left: 162px;
+  }
   #whatsup{
+    bottom: -10px;
+    right: 10px;
     position: absolute;
-    bottom: 115px;
-    right: 200px;
   }
   .cont_inputs{
     position: absolute;
     top: 100px;
     bottom: auto;
-    left: 300px;
     right: auto;
   }
   .cont_header{
     position: absolute;
     top: 30px;
-    bottom: auto;
-    left: 300px;
-    right: auto;
   }
+  .cont_info{
+    position: absolute;
+    text-align: right;
+    width: 90%;
+    margin-top: 80px;
+    margin-right: 50px;
+    z-index: -1;
 
+  }
   .info_img{
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-    margin-left: 1000px;
-    border-radius: 2000px;
+    position: relative;
+    border-radius: 500px;
     overflow: hidden;
   }
   .info{
-    margin-top: 20px;
-    margin-left: 1000px;
+    font-size: smaller;
+    margin-right: -40px;
+    width: 230px;
+    margin-left: auto;
+    direction: ltr;
+    text-align: left;
   }
 
 
 
 
+  @media only screen and (max-width:700px) {
+
+    /* .contact{
+      background-color: red;
+      width: 90%;
+      height: 450px;
+      position: relative;
+      margin: auto;
+      margin-left: 90px;
+      margin-right: 100px;
+    }
+
+    .info_img{
+      width: 200px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 300px;
+      border-radius: 2000px;
+      overflow: hidden;
+    }
+    .info{
+      margin-top: 20px;
+      margin-left: 300px;
+    }
+    .porjects{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 60%;
+      height: 80vh;
+      margin-left: 320px;
+      margin-right: auto;
+      font-family: 'Parisienne';
+      font-size: 25px;
+  
+  } */
+  }

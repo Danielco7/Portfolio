@@ -1,54 +1,40 @@
 @media (min-width:800px) {
 
-.header_pic{
- position: relative;
- margin: 10px;
- width:100%; 
- height:100vh;  
-}
-.header_pic svg{
-    z-index: 1;
-    width:100% ;
-    height:100%;
-}
+
 .header {
     width: 800px;
     height: 800px;
     margin-left: 340px;
 }
+
+.header_cont{
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.header{
+  margin-left: 332px;
+  position: absolute;
+  top: 170px; 
+  left: -132px; 
+}
 #scene{
- margin-right: 40px;
- top: 10%;
- right: 2%;
- width: 550px;
+ margin-left:auto ;
+ margin-right:-300px ;
+ height: 70%;
+ width: 70%;
 }
 #h1{
-    top: 20%; 
-    left: 320px; 
-    font-family: 'Parisienne';
-    color: rgba(223, 223, 223, 0.821);
-    font-size: 25px;
-
-
+  top: 150px; 
+  left: 320px; 
+  font-size: 25px;
 }
 #h2{
-    top: 53%; 
-    left: 320px; 
-    font-family: 'Parisienne';
-    color: rgba(223, 223, 223, 0.821);
-    font-size: 25px;
+  top: 420px; 
+  left: 320px; 
+  font-size: 25px;
 }
-
-}
-#scene{
- position: absolute;
- z-index: -1;
-}
-
-.header_pic{
-    position: relative;
-}
-
 #headerpic1{
  transform: rotate(180deg);
  opacity: 0;
@@ -57,6 +43,7 @@
  animation-duration: 1s ;
  animation-delay: 8.5s;
  animation-fill-mode: forwards;
+
 }
 #headerpic2{
     transform: rotate();
@@ -100,20 +87,273 @@
     animation-duration: 1s ;
     animation-delay: 9s;
     animation-fill-mode: forwards;
-    
 }
-.h{
-    opacity: 0;
-    animation-name: head;
-    animation-duration: 1s ;
-    animation-delay: 8s;
-    animation-fill-mode: forwards;
+  #exp{
     position: absolute;
-    font: Mystery Quest;
+    height: 100px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
-  
+ } 
+#scene{
+z-index: -2;
+}
+
+#headerpic1{
+transform: rotate(180deg);
+opacity: 0;
+margin-top: -50px;
+animation-name: head;
+animation-duration: 1s ;
+animation-delay: 8.5s;
+animation-fill-mode: forwards;
+
+}
+#headerpic2{
+  transform: rotate();
+  opacity: 0;
+  animation-name: head;
+  animation-duration: 1s ;
+  animation-delay: 8.6s;
+  animation-fill-mode: forwards;
+}
+#headerpic3{
+  transform: rotate(180deg);
+  opacity: 0;
+  margin-top: -50px;
+animation-name: head;
+animation-duration: 1s ;
+animation-delay: 8.7s;
+animation-fill-mode: forwards;
+}
+#headerpic4{
+  transform: rotate();
+  opacity: 0;
+animation-name: head;
+animation-duration: 1s ;
+animation-delay: 8.8s;
+animation-fill-mode: forwards;
+}
+#headerpic5{
+  transform: rotate(180deg);
+opacity: 0;
+  margin-top: -50px;
+  animation-name: head;
+animation-duration: 1s ;
+animation-delay: 8.9s;
+animation-fill-mode: forwards;
+}
+
+.h{
+  opacity: 1;
+  animation-name: head;
+  animation-duration: 1s ;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  font-family: 'Parisienne';
+color: rgba(223, 223, 223, 0.821);
+}
+#exp{
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -ms-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+  animation-name: example;
+  animation-duration: 1s ;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+
+}
+
   @keyframes head {
     from {opacity: 0;}
     to {opacity:1;}
     
+  }
+    #exp.fade{
+    opacity:0;
+  }
+  @keyframes example {
+    from {opacity: 1;}
+    to {opacity:0;}
+    from{ top: 47%;left: 52%; }
+    to {top:7%; left: -7%;}
+    from{width: 50%;}
+    to{ width: 10%;}
+    from{z-index: 1;}
+    to{z-index: -1;}
+  }
+  
+  #name path:nth-child(2){
+    stroke-dasharray:381 ;
+  stroke-dashoffset:381 ;
+  animation: line-anim 1.5s ease forwards 0.2s;
+  }
+  
+  #name path:nth-child(3){
+  stroke-dasharray:337 ;
+  stroke-dashoffset: 337;
+  animation: line-anim 1.5s ease forwards 0.4s;
+  }
+  
+  #name path:nth-child(4){
+    stroke-dasharray: 291;
+  stroke-dashoffset: 291;
+  animation: line-anim 1.5s ease forwards 0.6s;
+  }
+  
+  #name path:nth-child(5){
+  stroke-dasharray: 179;
+  stroke-dashoffset: 179;
+  animation: line-anim 1.5s ease forwards 0.8s;
+  }
+  
+  #name path:nth-child(6){
+    stroke-dasharray:339;
+  stroke-dashoffset:339 ;
+  animation: line-anim 1.5s ease forwards 1s;
+  }
+  
+  #name path:nth-child(7){
+  stroke-dasharray: 289;
+  stroke-dashoffset: 289;
+  animation: line-anim 1.5s ease forwards 1.2s;
+  }
+  
+  #name path:nth-child(8){
+    stroke-dasharray: 343;
+  stroke-dashoffset: 343;
+  animation: line-anim 1.5s ease forwards 1.4s;
+  }
+  
+  #name path:nth-child(9){
+  stroke-dasharray: 281;
+  stroke-dashoffset: 281;
+  animation: line-anim 1.5s ease forwards 1.6s;
+  }
+  
+  #name path:nth-child(10){
+    stroke-dasharray: 381;
+  stroke-dashoffset: 381;
+  animation: line-anim 1.5s ease forwards 1.8s;
+  }
+  #name path:nth-child(11){
+  stroke-dasharray: 337;
+  stroke-dashoffset: 337;
+  animation: line-anim 2s ease forwards 2s;
+  }
+  #name path:nth-child(12){
+    stroke-dasharray: 291;
+  stroke-dashoffset: 291;
+  animation: line-anim 2s ease forwards 2.2s;
+  }
+  @keyframes line-anim {
+    to{
+      stroke-dashoffset: 0;
+    }
+  }
+
+  
+
+
+
+
+
+  
+  @media only screen and (max-width:700px) {
+    .header_cont{
+      width: 90%;
+      margin-left: auto;
+      margin-right: 0px;
+  }
+  .header{
+    position: relative;
+    top: -50px;
+  }
+  #scene{
+   margin-left:auto ;
+   top: 1000px;
+   height: 70%;
+   width: 70%;
+   text-align: right;
+  }
+  #h1{
+    top: 150px; 
+    left: 90px; 
+    font-size: 25px;
+  }
+  #h2{
+    top: 400px; 
+    left: 90px; 
+    font-size: 25px;
+  }
+  #headerpic1{
+   transform: rotate(180deg);
+   opacity: 0;
+   margin-top: -50px;
+   animation-name: head;
+   animation-duration: 1s ;
+   animation-delay: 8.5s;
+   animation-fill-mode: forwards;
+  
+  }
+  #headerpic2{
+      transform: rotate();
+      opacity: 0;
+      
+      animation-name: head;
+      animation-duration: 1s ;
+      animation-delay: 8.6s;
+      animation-fill-mode: forwards;
+  }
+  #headerpic3{
+      transform: rotate(180deg);
+      opacity: 0;
+      margin-top: -50px;
+   animation-name: head;
+   animation-duration: 1s ;
+   animation-delay: 8.7s;
+   animation-fill-mode: forwards;
+  }
+  #headerpic4{
+      transform: rotate();
+      opacity: 0;
+   animation-name: head;
+   animation-duration: 1s ;
+   animation-delay: 8.8s;
+   animation-fill-mode: forwards;
+  }
+  #headerpic5{
+      transform: rotate(180deg);
+   opacity: 0;
+      margin-top: -50px;
+      animation-name: head;
+   animation-duration: 1s ;
+   animation-delay: 8.9s;
+   animation-fill-mode: forwards;
+  }
+  #headerpic6{
+      transform: rotate();
+      opacity:0;
+      animation-duration: 1s ;
+      animation-delay: 9s;
+      animation-fill-mode: forwards;
+  }
+    #exp{
+      position: absolute;
+      height: 100px;
+      width: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+
+
   }

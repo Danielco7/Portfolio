@@ -3,7 +3,7 @@ body{
   color: aliceblue;
   margin:0;
   width:100%; 
-  height: 4850px;
+  height: 4650px;
   background:hsla(0, 5%, 5%, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,11 +14,11 @@ body{
   min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Lekton';
-  overflow-y: hidden;
+  /* overflow-y: hidden;
   animation-name: loading;
  animation-duration: 2s ;
   animation-delay: 8s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 body::-webkit-scrollbar {
   width: 0.5em;
@@ -33,8 +33,32 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 255, 255);
   border-radius: 70px;
 }
-@media (min-width:800px) {
+@media only screen and (max-width:700px) {
+  /* .view {
+    width: 390px;
+    height: 1000px;
+}
+body{
+  background-color: #ed009a;
+  overflow-x: hidden;
 
+}
+.hex{
+  padding: 30px;
+  width: 100%;
+  height: 1000px;
+}
+.hextext1{
+  font-size: 3em;
+  margin-top: 400px;
+  left: 42%;
+}
+.hextext2{
+  font-size: 3em;
+  margin-top: 470px;
+  left: 34%
+} */
+}
 
 .hex{
   padding: 10px;
@@ -52,7 +76,7 @@ body::-webkit-scrollbar-thumb {
   left: 33.5%
 }
 
-}
+
 
 
 
@@ -83,11 +107,15 @@ body::-webkit-scrollbar-thumb {
 }
 .hextext1{
   position: absolute;
-  color: #ff0055;
+  color: #ffffff;
   background-color: #08172b;
+  top: -7px;
+  left: 40vw;
 }.hextext2{
   position: absolute;
-  color: #ff0055;
+  top: 15px;
+  left: 30vw;
+  color: #ffffff;
   background-color: #08172b;
 }
 
