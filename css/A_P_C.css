@@ -1,26 +1,89 @@
 @media (min-width:800px) {
-    .porjects{
-        width: 700px;
-      }
-      .about{
-        width: 700px;
-      }
-}
-.porjects{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  .porjects{
     width: 60%;
     height: 80vh;
     margin-left: 320px;
-    margin-right: auto;
-    font-family: 'Parisienne';
     font-size: 25px;
 
 }
 .porjects>div{
     margin-left: 10px;
     width: 97%;
+
+    
+  }
+  .about{
+    width: 60%;
+    margin-left: 320px;
+
+  }
+  .about_info{
+    margin-left: 40px;
+    width: 60%;
+
+  }
+
+  
+  .tooltip .tooltiptext {
+    border-radius: 6px;
+    padding: 5px 0;
+    z-index: 1;
+    bottom: -200px;
+    left: 120%;
+    margin-left: -60px;
+  }
+  
+  .contact{
+    width: 100%;
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: rgba(149, 148, 147, 0.321);
+  }
+
+  .contact_cont{
+    margin-left: 132px;
+  }
+  #whatsup{
+    right: 40px;
+    top: 240px;
+  }
+  .cont_inputs{
+    top: 100px;
+  }
+  .cont_header{
+    top: 30px;
+  }
+  .cont_info{
+    width: 100%;
+    top: 50px;
+    right:50px;
+  }
+  .cont_img_info{
+    right: 0;
+  }
+  .info_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+  }
+  .info{
+    width: 230px;
+    right: -35px;
+    top: 210px;;
+  }
+
+}
+.porjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: auto;
+    font-family: 'Parisienne';
+
+}
+.porjects>div{
     box-shadow: 60px -16px teal;
     box-shadow: 9px 2px 10px 7px rgba(0,255,255,0.7);  
     font-family: 'Lekton';
@@ -30,8 +93,6 @@
   }
   .about{
     justify-content: center;
-    width: 60%;
-    margin-left: 320px;
     margin-right: auto;
     font-family: 'Parisienne';
     font-size: 25px;
@@ -39,8 +100,6 @@
   }
   .about_info{
     font-family: 'Lekton';
-    margin-left: 40px;
-    width: 60%;
     font-size: 20px;
 
   }
@@ -51,122 +110,150 @@
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
     text-align: center;
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: -200px;
-    left: 120%;
-    margin-left: -60px;
   }
   
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.343) transparent transparent transparent;
-  }
+ 
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
 
   .contact{
-    width: 90%;
-    height: 450px;
     position: relative;
     margin: auto;
-    margin-left: 90px;
-    margin-right: 100px;
-    margin-top: 50px;
   }
 
-  .contact_cont{
-    position: relative;
-    margin-left: 162px;
-  }
-  #whatsup{
-    bottom: -10px;
-    right: 10px;
-    position: absolute;
-  }
   .cont_inputs{
     position: absolute;
-    top: 100px;
-    bottom: auto;
-    right: auto;
   }
   .cont_header{
     position: absolute;
-    top: 30px;
   }
   .cont_info{
+    position: relative;
+    background-color: aqua;
+  }
+   #whatsup{
     position: absolute;
-    text-align: right;
-    width: 90%;
-    margin-top: 80px;
-    margin-right: 50px;
-    z-index: -1;
-
+  }
+  .cont_img_info{
+    position: absolute;
   }
   .info_img{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 500px;
     overflow: hidden;
   }
   .info{
+    position: absolute;
     font-size: smaller;
-    margin-right: -40px;
-    width: 230px;
     margin-left: auto;
     direction: ltr;
-    text-align: left;
   }
 
 
 
 
-  @media only screen and (max-width:700px) {
+  @media only screen and (max-width:800px) {
 
-    /* .contact{
-      background-color: red;
-      width: 90%;
-      height: 450px;
-      position: relative;
-      margin: auto;
-      margin-left: 90px;
-      margin-right: 100px;
+    .porjects{
+      width: 70%;
+      height: 98vh;
+      margin-left: 80px;
+      font-size: 25px;
+  
+  }
+  .porjects>div{
+      margin-left: 15px;
+      width: 97%;
+  
+      
     }
+    .about{
+      width: 70%;
+      margin-left: 80px;
+      margin-right: auto;
+  
+    }
+    .about_info{
+      margin-left: 15px;
+      width: 100%;
 
+  
+    }
+  
+    
+    .tooltip .tooltiptext {
+      text-align: center;
+      padding: 5px 0;
+      z-index: 1;
+      bottom: 90px;
+      left: 10px;
+      margin-left: -60px;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 180%;
+      margin-left: -5px;
+      border-width: 15px;
+      margin-left: -5px;
+      border-width: 15px;
+      border-style: solid;
+      border-color: rgb(0, 0, 0) transparent transparent transparent;
+    }
+    
+    .contact{
+      width:100%;
+      height: 450px;
+      margin-right: 100px;
+      margin-top: 50px;
+      background-color: rgba(149, 148, 147, 0.321);
+    }
+  
+    .contact_cont{
+      margin-left: 92px;
+    }
+    #whatsup{
+      right: 40px;
+      top: 240px;
+    }
+    .cont_inputs{
+      top: 100px;
+      max-width: 100%;
+    }
+    .cont_header{
+      top: 30px;
+    }
+    .cont_info{
+      display: block;
+      width: 100%;
+      top: 50px;
+      right:20px;
+    }
+    .cont_img_info{
+      right: 0;
+    }
     .info_img{
       width: 200px;
       height: 200px;
-      margin-top: 20px;
-      margin-left: 300px;
-      border-radius: 2000px;
-      overflow: hidden;
+      border-radius: 500px;
     }
     .info{
-      margin-top: 20px;
-      margin-left: 300px;
+      width: 230px;
+      right: -35px;
+      top: 210px;;
     }
-    .porjects{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      width: 60%;
-      height: 80vh;
-      margin-left: 320px;
-      margin-right: auto;
-      font-family: 'Parisienne';
-      font-size: 25px;
-  
-  } */
+    .textarea{
+     max-width: 100%;
+     border-radius: 5px;
+     resize: none;
+    }
+
+   
+   
   }

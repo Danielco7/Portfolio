@@ -1,4 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@media (min-width:800px) {
+
+  .hex{
+    padding: 10px;
+    width: 99%;
+    height: 1000px;
+  }
+  .hex_svg{
+  width: 450px;
+  left: 35%;
+  }
+  #hextext1{
+    font-size: 3em;
+    top: 360px;
+  }
+  #hextext2{
+    font-size: 3em;
+    top: 450px;
+  }
+  .mySVG {
+    margin-top: 250px;
+  }
+  .hex_svg>svg{
+    stroke-width: 12px;
+  }
+  .luminaire {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    box-shadow: 0 0 40px 10px #fff, 0 0 100px 20px #0ff;
+    transition: box-shadow 4s ease-out;
+  overflow: hidden;
+  }
+  .luminaireIcon {
+    top: calc(10% );
+    left: calc(10% );
+    width: 67px;
+    height: 67px;
+  }
+  .explall{
+    width: 350px;
+    font-size: 18px;
+    transition: opacity 2s;
+    top:18%;
+  }
+  .lightbulbs{
+    position: relative;
+    height:700px;
+  }
+}
+
 body{
   color: aliceblue;
   margin:0;
@@ -7,7 +58,6 @@ body{
   background:hsla(0, 5%, 5%, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #171717;
   background-color: #08172b;
   transition: 1s;
   scroll-behavior: smooth;
@@ -17,7 +67,7 @@ body{
   /* overflow-y: hidden;
   animation-name: loading;
  animation-duration: 2s ;
-  animation-delay: 8s;
+  animation-delay: 5s;
   animation-fill-mode: forwards; */
 }
 body::-webkit-scrollbar {
@@ -33,57 +83,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 255, 255);
   border-radius: 70px;
 }
-@media only screen and (max-width:700px) {
-  /* .view {
-    width: 390px;
-    height: 1000px;
-}
-body{
-  background-color: #ed009a;
-  overflow-x: hidden;
 
-}
-.hex{
-  padding: 30px;
-  width: 100%;
-  height: 1000px;
-}
-.hextext1{
-  font-size: 3em;
-  margin-top: 400px;
-  left: 42%;
-}
-.hextext2{
-  font-size: 3em;
-  margin-top: 470px;
-  left: 34%
-} */
-}
-
-.hex{
-  padding: 10px;
-  width: 99%;
-  height: 1000px;
-}
-.hextext1{
-  font-size: 3em;
-  margin-top: 400px;
-  left: 42%;
-}
-.hextext2{
-  font-size: 3em;
-  margin-top: 470px;
-  left: 33.5%
-}
-
-
-
-
-
-
-
-
-  
 @keyframes loading {
   from {overflow-y: hidden;}
   to {overflow-y:scroll;}
@@ -92,46 +92,28 @@ body{
 
 .hex{
   position: relative;
-  display: flex;
+}
+.hex_svg{
+  position: absolute;
   justify-content: center;
+
 }
 .mySVG {
-
   position: absolute;
-  margin-top: 250px;
-  
 }
-.hex>svg{
-  stroke-width: 12px;
+.hex_svg>svg{
   stroke: #00ffaa;
 }
 .hextext1{
   position: absolute;
   color: #ffffff;
   background-color: #08172b;
-  top: -7px;
-  left: 40vw;
-}.hextext2{
+}
+.hextext2{
   position: absolute;
-  top: 15px;
-  left: 30vw;
   color: #ffffff;
   background-color: #08172b;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-  
-
-
-
-
-
-
-
-
-
-
-
 
 .lightbulbs{
   display: flex;
@@ -140,20 +122,12 @@ body{
 .luminaire {
   position: absolute;
   display: inline-block;
-  width: 81px;
-  height: 81px;
-  border-radius: 50%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 40px 10px #fff, 0 0 100px 20px #0ff;
   transition: box-shadow 4s ease-out;
-  /* animation: spin 20s linear infinite; */
 overflow: hidden;
 }
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 
 .luminaire:hover {
   cursor: pointer;
@@ -173,6 +147,9 @@ overflow: hidden;
   opacity: 0;
   transition: opacity 4s, transform 4s;
 }
+.lightbulbs{
+  height:700px;
+}
 
 .on {
   background-color: #fff;
@@ -190,26 +167,13 @@ overflow: hidden;
 }
 .luminaireIcon {
   position: absolute;
-  top: calc(10% );
-  left: calc(10% );
-  width: 67px;
-  height: 67px;
-  /* animation: spin 8s linear infinite;
-  animation-direction: reverse; */
+}
 
-}
-@keyframes counterspin {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
 .explall{
   opacity: 0;
-  width: 350px;
   transition: opacity 2s;
   text-align: center;
   font-family: 'Lekton';
-  top:18%;
   position: absolute;
 }
 .on_explall{
@@ -217,4 +181,65 @@ overflow: hidden;
 }
 .spiral_header{
   text-align: center;
+}
+@media only screen and (max-width:800px) {
+
+
+  .hex{
+    padding: 10px;
+    width: 99%;
+    height: 1000px;
+  }
+  .hex_svg{
+  width: 450px;
+  left: 15%;
+  }
+  #hextext1{
+    font-size: 2.7em;
+    width: 420px;
+    top: 360px;
+  }
+  #hextext2{
+    font-size: 2.7em;
+    width: 420px;
+    top: 450px;
+  }
+  .mySVG {
+    margin-top: 250px;
+  }
+  .hex_svg>svg{
+    stroke-width: 12px;
+  }
+  .lightbulbs{
+    position: relative;
+    height:500px;
+    z-index: 3;
+  }
+
+  .luminaire {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    box-shadow: 0 0 40px 10px #fff, 0 0 50px 10px #0ff;
+    transition: box-shadow 4s ease-out;
+  overflow: hidden;
+  }
+  .luminaireIcon {
+    top: calc(10% );
+    left: calc(10% );
+    width: 67px;
+    height: 67px;
+  }
+  .explall{
+    width: 260px;
+    transition: opacity 2s;
+    top:13%;
+    font-size: 15px;
+    z-index: -1;
+    color: #BD9334;
+  }
+  .on {
+    background-color: #fff;
+    box-shadow: 0 0 80px 40px #fff, 0 0 70px 30px #f0f;
+  }
 }
