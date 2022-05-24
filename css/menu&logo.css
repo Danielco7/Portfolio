@@ -2,11 +2,12 @@
     width: 30%;
     z-index: 2;
     height: 100%;
-    margin: auto;
+    margin-bottom: 0;
+    bottom: 30px;
     position: fixed;
     left: 0;
-    bottom: 0;
     padding: 10px 0px;
+    background-color: red;
 }
 #menu{
   transition: 0.5s;
