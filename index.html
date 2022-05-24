@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <meta name="viewport" content="width=device-width, initial-scale=0.71, maximum-scale=1,user-scalable=no" />
+        <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=0.61, 
+                      minimum-scale=0.69, maximum-scale=1.0, 
+                      user-scalable=no, target-densitydpi=device-dpi">
         <link href='https://fonts.googleapis.com/css?family=Lekton' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -388,7 +391,7 @@ data-aos-anchor-placement="center-bottom"
             <p>body</p>
             <textarea class="textarea" resize= 'none'  rows="7"  ></textarea>
             <br><br>
-            <button>send</button>
+            <button onclick="onSendMail()">send</button>
         </div>
     </div>
         <div class="cont_info">
@@ -622,6 +625,9 @@ function shownav() {
              {number==3?document.getElementById('about').scrollIntoView({behavior: 'smooth'}):null}
              {number==4?document.getElementById('contact').scrollIntoView({behavior: 'smooth'}):null}
             }
+            const onSendMail = () => {
+                window.location.href='mailto:danielcohenn9@gmail.com';
+    }
 
     
         </script>
