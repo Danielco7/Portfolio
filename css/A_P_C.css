@@ -23,13 +23,12 @@
 
   }
 
-  
   .tooltip .tooltiptext {
     border-radius: 6px;
     padding: 5px 0;
     z-index: 1;
     bottom: -200px;
-    left: 120%;
+    left: 160%;
     margin-left: -60px;
   }
   
@@ -183,14 +182,16 @@
 
   
     }
-  
+    .kern_img{
+      width: 350px;
+    }
     
     .tooltip .tooltiptext {
       text-align: center;
       padding: 5px 0;
       z-index: 1;
       bottom: 90px;
-      left: 10px;
+      left: 17%;
       margin-left: -60px;
     }
     
