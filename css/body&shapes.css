@@ -190,16 +190,16 @@ overflow: hidden;
   }
   .hex_svg{
   width: 430px;
-  left: 15%;
+  left: 17%;
   }
   #hextext1{
     font-size: 2.7em;
     width: 420px;
-    top: 360px;
+    top: 380px;
   }
   #hextext2{
     font-size: 2.7em;
-    width: 420px;
+    width: 410px;
     top: 450px;
   }
   .mySVG {
@@ -207,7 +207,7 @@ overflow: hidden;
   }
   .hex_svg>svg{
     stroke-width: 12px;
-    width: 430px;
+    width: 400px;
   }
   .lightbulbs{
     position: relative;
