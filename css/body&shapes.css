@@ -213,10 +213,12 @@ overflow: hidden;
   .lightbulbs{
     position: relative;
     height:390px;
+    left: 30px;
     z-index: 2;
   }
 
   .luminaire {
+    left: 40px;
     width: 81px;
     height: 81px;
     border-radius: 50%;
