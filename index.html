@@ -508,13 +508,13 @@ function shownav() {
         function myFunction() {
             
                 
-                let scrollpercent = (document.documentElement.scrollTop +790 - hexgon.offsetTop) / (hexgon.scrollHeight+900 - document.documentElement.clientHeight);
+                let scrollpercent = (document.documentElement.scrollTop +790 - hexgon.offsetTop) / (hexgon.scrollHeight+800 - document.documentElement.clientHeight);
             
                 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                 function draw(scrollpercent){
                     if (width>800) {
-                        hextext1.style.left=`${34+(scrollpercent*5)}%`
-                        hextext2.style.left=`${36-(scrollpercent*5)}%`
+                        hextext1.style.left=`${24+(scrollpercent*14)}%`
+                        hextext2.style.left=`${46-(scrollpercent*14)}%`
                     }
                     else{
                         hextext1.style.left=`${6.5+(scrollpercent*14)}%`
