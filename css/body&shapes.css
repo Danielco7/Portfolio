@@ -189,7 +189,7 @@ overflow: hidden;
     height: 1000px;
   }
   .hex_svg{
-  width: 450px;
+  width: 430px;
   left: 15%;
   }
   #hextext1{
@@ -207,6 +207,7 @@ overflow: hidden;
   }
   .hex_svg>svg{
     stroke-width: 12px;
+    width: 430px;
   }
   .lightbulbs{
     position: relative;
