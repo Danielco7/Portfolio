@@ -82,6 +82,7 @@ left:0;
     justify-content: space-evenly;
     height: 50vh;
     z-index: 4;
+    width: 30px;
   }
   #navbar{
     animation: navbar 0.5s  ease-in-out forwards 0.6s;
