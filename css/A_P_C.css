@@ -28,13 +28,12 @@
     padding: 5px 0;
     z-index: 1;
     bottom: -200px;
-    left: 160%;
-    margin-left: -60px;
+    right: -110%;
   }
   
   .contact{
     width: 100%;
-    height: 450px;
+    height: 550px;
     margin-left: 90px;
     margin-right: 100px;
     margin-top: 50px;
@@ -42,22 +41,22 @@
   }
 
   .contact_cont{
-    margin-left: 132px;
+    margin-left: 292px;
   }
   #whatsup{
     right: 40px;
     top: 240px;
   }
   .cont_inputs{
-    top: 100px;
+    top: 150px;
   }
   .cont_header{
-    top: 30px;
+    top: 80px;
   }
   .cont_info{
     width: 100%;
-    top: 50px;
-    right:50px;
+    top: 100px;
+    right:240px;
   }
   .cont_img_info{
     right: 0;
@@ -134,7 +133,6 @@
   }
   .cont_info{
     position: relative;
-    background-color: aqua;
   }
    #whatsup{
     position: absolute;
@@ -199,18 +197,18 @@
       content: "";
       position: absolute;
       top: 100%;
-      left: 180%;
+      left: 50%;
       margin-left: -5px;
       border-width: 15px;
       margin-left: -5px;
       border-width: 15px;
       border-style: solid;
-      border-color: rgb(0, 0, 0) transparent transparent transparent;
+      border-color: rgb(0, 255, 170) transparent transparent transparent;
     }
     
     .contact{
       width:100%;
-      height: 450px;
+      height: 550px;
       margin-right: 100px;
       margin-top: 50px;
       background-color: rgba(149, 148, 147, 0.321);
@@ -224,16 +222,17 @@
       top: 240px;
     }
     .cont_inputs{
-      top: 100px;
+      top: 150px;
       max-width: 100%;
+      
     }
     .cont_header{
-      top: 30px;
+      top: 80px;
     }
     .cont_info{
       display: block;
       width: 100%;
-      top: 50px;
+      top: 100px;
       right:20px;
     }
     .cont_img_info{
@@ -241,7 +240,6 @@
     }
     .info_img{
       width: 200px;
-      height: 200px;
       border-radius: 500px;
     }
     .info{
@@ -257,4 +255,21 @@
 
    
    
+  }
+  @media only screen and (max-width:900px) {
+    .contact_cont{
+      margin-left: 92px;
+    }
+    .cont_info{
+      right:20px;
+    }
+
+    .tooltip .tooltiptext {
+      text-align: center;
+      padding: 5px 0;
+      z-index: 1;
+      bottom: 90px;
+      left: 17%;
+      margin-left: -60px;
+    }
   }
