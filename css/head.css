@@ -30,10 +30,10 @@
  width: 70%;
 }
 #h1{
-  font-size: 25px;
+  font-size: 35px;
 }
 #h2{
-  font-size: 25px;
+  font-size: 35px;
 }
   #exp{
     position: absolute;
@@ -126,7 +126,7 @@ animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   position: absolute;
   font-family: 'Parisienne';
-color: rgba(223, 223, 223, 0.821);
+color: rgb(223, 223, 223);
 }
 #exp{
   position: absolute;
@@ -262,10 +262,10 @@ color: rgba(223, 223, 223, 0.821);
     position: absolute;
   }
   #h1{
-    font-size: 25px;
+    font-size: 35px;
   }
   #h2{
-    font-size: 25px;
+    font-size: 35px;
   }
   #headerpic1{
    margin-top: -50px;
