@@ -332,7 +332,6 @@
       font-size: 17px;
       top: 400px;
       right: 0px;
-
     }
     .proj2_tools>i{
       cursor: pointer;
@@ -343,7 +342,6 @@
     }
     .img_proj2_cont{
       height: 261px;
-      background-image:url(../imgs/porject1.png);
       background-size: contain;
       background-repeat: no-repeat;
     }
