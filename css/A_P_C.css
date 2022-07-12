@@ -61,7 +61,7 @@
   .proj2_expl{
     position: absolute;
     width: 537px;
-    height: 150px;
+    height: 170px;
     left: 0;
     top: 100px;
     background-color: rgb(13, 35, 63);
@@ -76,7 +76,7 @@
     font-family: 'Lekton';
     color: aquamarine;
     font-size: 18px;
-    top: 275px;
+    top: 295px;
     left: 40px;
     z-index:3;
   }
