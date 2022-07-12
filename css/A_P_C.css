@@ -296,12 +296,11 @@
       font-family: 'Lekton';
       color: aquamarine;
       font-size: 17px;
-      width: 190px;
+      width: 180px;
       margin-top: -30px;
       margin-bottom: auto;
       margin-right: 0px;
       margin-left: auto;
-      background-color: red;
     }
     .proj1_tools>i{
       cursor: pointer;
