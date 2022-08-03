@@ -63,7 +63,7 @@ body{
   min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Lekton';
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   animation-name: loading;
  animation-duration: 2s ;
   animation-delay: 5s;
