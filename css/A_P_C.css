@@ -1,25 +1,24 @@
-@media (min-width:800px) {
-  .porjects{
+@media (min-width: 800px) {
+  .porjects {
     width: 60%;
     height: 100vh;
     margin-left: 320px;
     font-size: 35px;
-
-}
-.porjects>div{
+  }
+  .porjects > div {
     margin-left: 10px;
     width: 97%;
   }
-  .proj1_cont{
+  .proj1_cont {
     position: relative;
     height: 360px;
   }
-  .proj1_header{
+  .proj1_header {
     position: absolute;
     right: 20px;
     top: 20px;
   }
-  .proj1_expl{
+  .proj1_expl {
     position: absolute;
     width: 537px;
     height: 150px;
@@ -32,9 +31,9 @@
     text-align: right;
     padding: 13px;
   }
-  .proj1_tools{
+  .proj1_tools {
     position: absolute;
-    font-family: 'Lekton';
+    font-family: "Lekton";
     color: aquamarine;
     font-size: 18px;
     top: 275px;
@@ -42,45 +41,44 @@
     width: 320px;
     display: flex;
     justify-content: space-evenly;
-
   }
-  .proj1_tools>i{
+  .proj1_tools > i {
     cursor: pointer;
   }
-  .proj1_tools>i:hover{
+  .proj1_tools > i:hover {
     color: white;
     cursor: pointer;
   }
-  .proj1_tools_svg{
-    margin-top:2px;
+  .proj1_tools_svg {
+    margin-top: 2px;
     display: flex;
     justify-content: space-around;
     width: 100px;
     margin-left: 10px;
   }
-  .proj1_tools_svg>i:hover{
+  .proj1_tools_svg > i:hover {
     cursor: pointer;
   }
-  .proj1_tools_svg>i>.svgs_proj1:hover{
-    stroke:rgb(255, 255, 255)!important;
+  .proj1_tools_svg > i > .svgs_proj1:hover {
+    stroke: rgb(255, 255, 255) !important;
   }
-  .svgs_proj1{
+  .svgs_proj1 {
     stroke: aquamarine;
   }
 
-  .img_proj1_cont{
+  .img_proj1_cont {
     position: absolute;
     width: 650px;
     height: 350px;
-    background-image:url(../imgs/porject1.png);
+    background-image: url(../imgs/porject1.png);
     background-size: contain;
   }
-  .proj2_header{
+  .proj2_header {
     position: absolute;
     left: 20px;
     top: 20px;
   }
-  .proj2_expl{
+  .proj2_expl {
     position: absolute;
     width: 537px;
     height: 170px;
@@ -93,35 +91,34 @@
     text-align: left;
     padding: 13px;
   }
-  .proj2_tools{
+  .proj2_tools {
     position: absolute;
-    font-family: 'Lekton';
+    font-family: "Lekton";
     color: aquamarine;
     font-size: 18px;
     top: 295px;
     left: 40px;
-    z-index:3;
+    z-index: 3;
     display: flex;
     justify-content: space-evenly;
     width: 320px;
-
   }
-  .proj2_tools>i{
+  .proj2_tools > i {
     cursor: pointer;
   }
-  .proj2_tools>i:hover{
+  .proj2_tools > i:hover {
     color: white;
   }
-  .img_proj2_cont{
+  .img_proj2_cont {
     position: absolute;
-    background-image:url(../imgs/pokemon.png);
+    background-image: url(../imgs/pokemon.png);
     right: 0;
     width: 650px;
     height: 350px;
     background-size: contain;
   }
- 
-  .img_proj{
+
+  .img_proj {
     width: 650px;
     height: 360px;
     top: 0;
@@ -129,15 +126,13 @@
     border-radius: 10px;
     z-index: -1;
   }
-  .about{
+  .about {
     width: 60%;
     margin-left: 320px;
-
   }
-  .about_info{
+  .about_info {
     margin-left: 40px;
     width: 60%;
-
   }
 
   .tooltip .tooltiptext {
@@ -147,8 +142,8 @@
     bottom: -200px;
     right: -150%;
   }
-  
-  .contact{
+
+  .contact {
     width: 100%;
     height: 550px;
     margin-left: 90px;
@@ -157,354 +152,332 @@
     background-color: rgba(149, 148, 147, 0.321);
   }
 
-  .contact_cont{
+  .contact_cont {
     margin-left: 292px;
   }
-  #whatsup{
+  #whatsup {
     right: 40px;
     top: 240px;
   }
-  .cont_inputs{
+  .cont_inputs {
     top: 150px;
   }
-  .cont_header{
+  .cont_header {
     top: 80px;
   }
-  .cont_info{
+  .cont_info {
     width: 100%;
     top: 100px;
-    right:240px;
+    right: 240px;
   }
-  .cont_img_info{
+  .cont_img_info {
     right: 0;
   }
-  .info_img{
+  .info_img {
     width: 200px;
     height: 200px;
     border-radius: 500px;
   }
-  .info{
+  .info {
     width: 230px;
     right: -35px;
-    top: 210px;;
+    top: 210px;
   }
-
 }
-.porjects{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: auto;
-    font-family: 'Parisienne';
-    font-size: 35px;
-
+.porjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: auto;
+  font-family: "Parisienne";
+  font-size: 35px;
 }
-.porjects>div{
-    font-family: 'Lekton';
-    font-size: 20px;
+.porjects > div {
+  font-family: "Lekton";
+  font-size: 20px;
+}
+.about {
+  justify-content: center;
+  margin-right: auto;
+  font-family: "Parisienne";
+  font-size: 35px;
+}
+.about_info {
+  font-family: "Lekton";
+  font-size: 20px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
 
-    
-  }
-  .about{
-    justify-content: center;
-    margin-right: auto;
-    font-family: 'Parisienne';
+.tooltip .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.contact {
+  position: relative;
+  margin: auto;
+}
+
+.cont_inputs {
+  position: absolute;
+  z-index: 3;
+}
+.cont_header {
+  position: absolute;
+}
+.cont_info {
+  position: relative;
+}
+#whatsup {
+  position: absolute;
+}
+.cont_img_info {
+  position: absolute;
+}
+.info_img {
+  overflow: hidden;
+}
+.info {
+  position: absolute;
+  font-size: smaller;
+  margin-left: auto;
+  direction: ltr;
+}
+.textarea {
+  max-width: 100%;
+  border-radius: 5px;
+  resize: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .porjects {
+    width: 80%;
+    height: 100vh;
+    margin-left: 80px;
     font-size: 35px;
-
   }
-  .about_info{
-    font-family: 'Lekton';
-    font-size: 20px;
-
+  .porjects > div {
+    margin-left: 15px;
+    width: 97%;
   }
-    .tooltip {
+  .proj1_cont {
     position: relative;
-    display: inline-block;
+    top: 20px;
+    height: 520px;
   }
-  
+  .proj1_header {
+    position: absolute;
+    left: 0px;
+    top: -40px;
+  }
+  .proj1_expl {
+    margin-top: 20px;
+    background-color: rgb(13, 35, 63);
+    font-size: 17.5px;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 15px;
+    min-width: 420px;
+  }
+  .proj1_tools {
+    font-family: "Lekton";
+    color: aquamarine;
+    font-size: 17px;
+    width: 310px;
+    margin-top: -30px;
+    margin-bottom: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .proj1_tools > i {
+    cursor: pointer;
+  }
+  .proj1_tools > i:hover {
+    color: white;
+  }
+  .proj1_tools_svg {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-left: 10px;
+  }
+  .proj1_tools_svg > i:hover {
+    cursor: pointer;
+  }
+  .proj1_tools_svg > i > .svgs_proj1:hover {
+    stroke: rgb(255, 255, 255) !important;
+  }
+  .svgs_proj1 {
+    stroke: aquamarine;
+  }
+  .img_proj1_cont {
+    height: 261px;
+    min-width: 420px;
+    background-image: url(../imgs/porject1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .proj2_header {
+    position: absolute;
+    left: 0px;
+    top: -60px;
+  }
+  .proj2_expl {
+    background-color: rgb(13, 35, 63);
+    z-index: 2;
+    font-size: 17.5px;
+    border-radius: 5px;
+    padding: 15px;
+    min-width: 420px;
+  }
+  .proj2_tools {
+    font-family: "Lekton";
+    color: aquamarine;
+    font-size: 17px;
+    width: 310px;
+    margin-top: -10px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .proj2_tools > i {
+    cursor: pointer;
+  }
+  .proj2_tools > i:hover {
+    color: white;
+  }
+  .img_proj2_cont {
+    height: 261px;
+    min-width: 420px;
+    background-image: url(../imgs/pokemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hi {
+    position: absolute;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .hi:hover {
+    opacity: 0;
+    background-color: aliceblue;
+  }
+  .img_proj {
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  .about {
+    width: 70%;
+    margin-left: 80px;
+    margin-right: auto;
+  }
+  .about_info {
+    margin-left: 15px;
+    width: 100%;
+  }
+  .kern_img {
+    width: 350px;
+  }
+
   .tooltip .tooltiptext {
-    visibility: hidden;
     text-align: center;
     padding: 5px 0;
-    position: absolute;
     z-index: 1;
-  }
-  
- 
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
+    bottom: 90px;
+    left: 17%;
+    margin-left: -60px;
   }
 
-  .contact{
-    position: relative;
-    margin: auto;
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 15px;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(0, 255, 170) transparent transparent transparent;
   }
 
-  .cont_inputs{
-    position: absolute;
-    z-index: 3;
+  .contact {
+    width: 100%;
+    height: 550px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: rgba(149, 148, 147, 0.321);
   }
-  .cont_header{
-    position: absolute;
+
+  .contact_cont {
+    margin-left: 92px;
   }
-  .cont_info{
-    position: relative;
+  #whatsup {
+    right: 40px;
+    top: 240px;
   }
-   #whatsup{
-    position: absolute;
+  .cont_inputs {
+    top: 150px;
+    max-width: 100%;
   }
-  .cont_img_info{
-    position: absolute;
+  .cont_header {
+    top: 80px;
   }
-  .info_img{
-    overflow: hidden;
+  .cont_info {
+    display: block;
+    width: 100%;
+    top: 100px;
+    right: 20px;
   }
-  .info{
-    position: absolute;
-    font-size: smaller;
-    margin-left: auto;
-    direction: ltr;
+  .cont_img_info {
+    right: 0;
   }
-  .textarea{
+  .info_img {
+    width: 200px;
+    border-radius: 500px;
+  }
+  .info {
+    width: 230px;
+    right: -35px;
+    top: 220px;
+  }
+  .textarea {
     max-width: 100%;
     border-radius: 5px;
     resize: none;
-   }
-
-
-
-
-  @media only screen and (max-width:800px) {
-
-    .porjects{
-      width: 80%;
-      height: 100vh;
-      margin-left: 80px;
-      font-size: 35px;
-  
   }
-  .porjects>div{
-      margin-left: 15px;
-      width: 97%;
-    }
-    .proj1_cont{
-      position: relative;
-      top: 20px;
-      height: 520px;
-    }
-    .proj1_header{
-      position: absolute;
-      left: 0px;
-      top: -40px;
-    }
-    .proj1_expl{
-      margin-top: 20px;
-      background-color: rgb(13, 35, 63);
-      font-size: 17.5px;
-      z-index: 2;
-      border-radius: 5px;
-      padding: 15px;
-      min-width: 420px;
-    }
-    .proj1_tools{
-      font-family: 'Lekton';
-      color: aquamarine;
-      font-size: 17px;
-      width: 310px;
-      margin-top: -30px;
-      margin-bottom: auto;
-      margin-right: 0px;
-      margin-left: auto;
-      display: flex;
-      justify-content: space-around;
-    }
-    .proj1_tools>i{
-      cursor: pointer;
-    }
-    .proj1_tools>i:hover{
-      color: white;
-    }
-    .proj1_tools_svg{
-      margin-top:2px;
-      display: flex;
-      justify-content: space-around;
-      width: 100px;
-      margin-left: 10px;
-    }
-    .proj1_tools_svg>i:hover{
-      cursor: pointer;
-    }
-    .proj1_tools_svg>i>.svgs_proj1:hover{
-      stroke:rgb(255, 255, 255)!important;
-    }
-    .svgs_proj1{
-      stroke: aquamarine;
-    }
-    .img_proj1_cont{
-      height: 261px;
-      min-width: 420px;
-      background-image:url(../imgs/porject1.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .proj2_header{
-      position: absolute;
-      left: 0px;
-      top: -60px;
-    }
-    .proj2_expl{
-      background-color: rgb(13, 35, 63);
-      z-index: 2;
-      font-size: 17.5px;
-      border-radius: 5px;
-      padding: 15px;
-      min-width: 420px;
-    }
-    .proj2_tools{
-      font-family: 'Lekton';
-      color: aquamarine;
-      font-size: 17px;
-      width: 310px;
-      margin-top: -10px;
-      margin-bottom: auto;
-      margin-right: auto;
-      margin-left: 0;
-      display: flex;
-      justify-content: space-around;
-    }
-    .proj2_tools>i{
-      cursor: pointer;
-    }
-    .proj2_tools>i:hover{
-      color: white;
-  
-    }
-    .img_proj2_cont{
-      height: 261px;
-      min-width: 420px;
-      background-image:url(../imgs/pokemon.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .hi{
-      position: absolute;
-      background-size: contain;
-      cursor: pointer;
-  
-    }
-    .hi:hover{
-      opacity: 0;
-      background-color: aliceblue;
-    }
-    .img_proj{
-      top: 0;
-      bottom: 0;
-      border-radius: 10px;
-      z-index: -1;
-    }
-    .about{
-      width: 70%;
-      margin-left: 80px;
-      margin-right: auto;
-  
-    }
-    .about_info{
-      margin-left: 15px;
-      width: 100%;
-
-  
-    }
-    .kern_img{
-      width: 350px;
-    }
-    
-    .tooltip .tooltiptext {
-      text-align: center;
-      padding: 5px 0;
-      z-index: 1;
-      bottom: 90px;
-      left: 17%;
-      margin-left: -60px;
-    }
-    
-    .tooltip .tooltiptext::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      margin-left: -5px;
-      border-width: 15px;
-      margin-left: -5px;
-      border-width: 15px;
-      border-style: solid;
-      border-color: rgb(0, 255, 170) transparent transparent transparent;
-    }
-    
-    .contact{
-      width:100%;
-      height: 550px;
-      margin-right: 100px;
-      margin-top: 50px;
-      background-color: rgba(149, 148, 147, 0.321);
-    }
-  
-    .contact_cont{
-      margin-left: 92px;
-    }
-    #whatsup{
-      right: 40px;
-      top: 240px;
-    }
-    .cont_inputs{
-      top: 150px;
-      max-width: 100%;
-      
-    }
-    .cont_header{
-      top: 80px;
-    }
-    .cont_info{
-      display: block;
-      width: 100%;
-      top: 100px;
-      right:20px;
-    }
-    .cont_img_info{
-      right: 0;
-    }
-    .info_img{
-      width: 200px;
-      border-radius: 500px;
-    }
-    .info{
-      width: 230px;
-      right: -35px;
-      top: 220px;;
-    }
-    .textarea{
-     max-width: 100%;
-     border-radius: 5px;
-     resize: none;
-    }
-
-   
-   
+}
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  .contact_cont {
+    margin-left: 92px;
   }
-  @media only screen and (max-width:900px) and (min-width:800px) {
-    .contact_cont{
-      margin-left: 92px;
-    }
-    .cont_info{
-      right:20px;
-    }
-
-    .tooltip .tooltiptext {
-      text-align: center;
-      padding: 5px 0;
-      z-index: 1;
-      bottom: 90px;
-      left: -290px;
-      margin-left: -60px;
-    }
+  .cont_info {
+    right: 20px;
   }
+
+  .tooltip .tooltiptext {
+    text-align: center;
+    padding: 5px 0;
+    z-index: 1;
+    bottom: 90px;
+    left: -290px;
+    margin-left: -60px;
+  }
+}
